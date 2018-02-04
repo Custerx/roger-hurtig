@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "title": "Is This A Real Book? Version: 1",
+    "author": "Roger Hurtig",
+    "genre": "Fiction",
+    "publishDate": "201",
+    "price": "38",
+    "description": "Does this book object exist and is it part of some bigger hardcoded list?"
+  }
+]

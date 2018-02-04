@@ -2,10 +2,10 @@
     "use strict";
 
     var LibraryDAO = require('../dao/LibraryDAO');
-
-
-    module.exports = function (id, data, callback) {
-
+    var Books = require('../dao/Books')
+    
+    module.exports = function (id, data, callback) {    
+      callback(LibraryDAO.writeXMLFile(data))
     };
 
 }());
