@@ -5,7 +5,16 @@
     "author": "Roger Hurtig",
     "genre": "Fiction",
     "publishDate": "201",
-    "price": "38",
+    "price": "389",
     "description": "Does this book object exist and is it part of some bigger hardcoded list?"
+  },
+  {
+    "title": " Book number 2",
+    "author": "Roger Hurtig",
+    "description": "This is book nr2 ",
+    "genre": "Fiction",
+    "price": "2812",
+    "id": "2",
+    "publishDate": "2017"
   }
 ]

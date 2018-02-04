@@ -5,7 +5,7 @@
     var Books = require('../dao/Books')
     
     module.exports = function (id, data, callback) {    
-      callback(LibraryDAO.writeXMLFile(data))
+      callback(LibraryDAO.writeXMLFile(data, id))
     };
 
 }());
