@@ -6,7 +6,7 @@
 
     module.exports = function (id, callback) {
       // callback(Books)
-      callback(LibraryDAO.readXMLFile())
+      callback(LibraryDAO.readXMLFile(id))
     };
 
 }());
