@@ -45,15 +45,6 @@
     "description": "Alice in Wonderland tells of a girl named Alice falling through a rabbit hole into a fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children. It is considered to be one of the best examples of the literary nonsense genre. Its narrative course and structure, characters and imagery have been enormously influential in both popular culture and literature, especially in the fantasy genre."
   },
   {
-    "id": "6",
-    "author": "Astrid Lindgren",
-    "title": "Ronia the Robbers Daughter",
-    "genre": "Fantasy",
-    "price": "79",
-    "publish_date": "1981-04-23",
-    "description": "Ronia is a girl growing up among a clan of robbers living in a castle in the woodlands of early-Medieval Scandinavia. As the only child of Matt, the chief, she is expected to become the leader of the clan someday. Their castle, Matts Fort, is split in two parts by a lightning bolt on the day of Ronias birth. Ronia grows up with Matts clan of robbers as her only company, until a rival robber group led by Borka moves into the other half of the castle, exacerbating the longstanding rivalry between the two bands."
-  },
-  {
     "id": "7",
     "author": "Dan Brown",
     "title": "The Da Vinci Code",
@@ -90,12 +81,67 @@
     "description": "Hawking attempts to explain a range of subjects in cosmology, including the big bang, black holes and light cones, to the nonspecialist reader. His main goal is to give an overview of the subject, but he also attempts to explain some complex mathematics. In the 1996 edition of the book and subsequent editions, Hawking discusses the possibility of time travel and wormholes and explores the possibility of having a universe without a quantum singularity at the beginning of time."
   },
   {
-    "title": " test",
-    "author": "test",
+    "title": " im am the djungle",
+    "author": "djungle author",
+    "description": "ABout the jungle ",
+    "genre": "fiction",
+    "price": "89",
+    "publishDate": "2018",
+    "id": "12"
+  },
+  {
+    "id": "6",
+    "author": "Astrid Lindgren",
+    "title": "Ronia the Robbers Daughter",
+    "genre": "Fantasy",
+    "price": "79",
+    "description": "Ronia is a girl growing up among a clan of robbers living in a castle in the woodlands of early-Medieval Scandinavia. As the only child of Matt, the chief, she is expected to become the leader of the clan someday. Their castle, Matts Fort, is split in two parts by a lightning bolt on the day of Ronias birth. Ronia grows up with Matts clan of robbers as her only company, until a rival robber group led by Borka moves into the other half of the castle, exacerbating the longstanding rivalry between the two bands.",
+    "publishDate": "2018"
+  },
+  {
+    "title": " hbdfnhsd",
+    "author": " sdfgdfg",
+    "description": " dfnhsgj",
+    "genre": " dsfhdfg",
+    "price": " dfgdfg",
+    "publishDate": "dfgdfh",
+    "id": "13"
+  },
+  {
+    "title": "qrrf",
+    "author": "qwea",
     "description": "test ",
     "genre": "test",
     "price": "test",
-    "publishDate": "test",
+    "publishDate": "test1",
     "id": "11"
+  },
+  {
+    "author": "me mario",
+    "title": "another title",
+    "id": "14"
+  },
+  {
+    "author": "me mario",
+    "title": "another title",
+    "description": "api stories",
+    "genre": "api genre",
+    "id": "15"
+  },
+  {
+    "author": "me mario",
+    "title": "another title",
+    "description": "api stories",
+    "genre": "api genre",
+    "id": "16"
+  },
+  {
+    "title": " dasf",
+    "author": " gadgsd",
+    "description": " asfg",
+    "genre": " asdfa",
+    "price": " fdas",
+    "publishDate": "asd",
+    "id": "17"
   }
 ]

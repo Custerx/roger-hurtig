@@ -25,6 +25,7 @@
         res.type('json');
 
         AddBookResource(req.body, function () {
+            console.log(req.body)
             res.send("{}");
         });
     });

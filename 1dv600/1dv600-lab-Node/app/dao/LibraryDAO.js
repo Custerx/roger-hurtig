@@ -12,7 +12,7 @@
     var LibraryDAO = {
 
         // Get the entire file from the file system.
-        readXMLFile: async function(callback) { // Synchronous function
+        readXMLFile: async function(callback) { // Asynchronous function
           function asyncXML () {
             return new Promise(function (resolve, reject) {
               fs.readFile('./books.xml', 'utf-8', (error, text) => {
@@ -70,7 +70,14 @@
 
           if (!data.hasOwnProperty('id') && isNaN(data) === true) { // Adds a book.
             let id = incoming.length + 1 // Used to generate new ID when books get added.
-            data.id = '' + id
+            incoming.forEach(element => {
+              if (element.id === id) { // If the id already exist because of lacking logic... then..
+                let id2 = id + 5 // It will add 5 to the list. I doubt there will be deleted 5 more books than we add to the system. Still not perfect but better.
+                data.id = '' + id2
+                incoming.push(data)
+              }
+            })
+            data.id = '' + id // If the id aint dublicated.
             incoming.push(data)
           }
 
